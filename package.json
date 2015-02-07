@@ -1,0 +1,21 @@
+{
+  "name": "console-winston-syslog",
+  "version": "0.0.1",
+  "description": "Console replacement that writes to stdout and syslog using Winston",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "syslog",
+    "winston",
+    "console"
+  ],
+  "author": "Justin Makeig <jmpublic+github@makeig.com>",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "marklogic": "git://github.com/marklogic/node-client-api#develop",
+    "winston": "^0.9.0",
+    "winston-posix-syslog": "0.0.7"
+  }
+}
