@@ -14,8 +14,8 @@
   "author": "Justin Makeig <jmpublic+github@makeig.com>",
   "license": "Apache 2.0",
   "dependencies": {
-    "marklogic": "git://github.com/marklogic/node-client-api#develop",
     "winston": "^0.9.0",
     "winston-posix-syslog": "0.0.7"
-  }
+  },
+  "repository": "https://github.com/jmakeig/console-winston-syslog"
 }
